@@ -65,11 +65,8 @@ eas build -p android --profile preview
 
 ### **`/assets`**
 Contém os recursos estáticos do aplicativo, como ícones e imagens:
-- `adaptive-icon.png`: Ícone adaptativo usado em dispositivos Android/iOS.
-- `favicon.png`: Ícone usado em navegadores da web.
-- `icon.png`: Ícone principal do aplicativo.
+Android/iOS.
 - `logo.png`: Logo do aplicativo.
-- `splash-icon.png`: Imagem exibida na tela de carregamento (splash screen).
 
 ### **`/src`**
 O diretório principal do código-fonte do projeto.
@@ -80,7 +77,7 @@ O diretório principal do código-fonte do projeto.
 #### **`/contexts`**
 Armazena os contextos do React para gerenciar o estado global:
 - **`AuthContext.js`**: Gerencia o estado de autenticação do usuário (login, logout, etc.).
-- **`CartoesEstudoContext.js`**: Gerencia o estado relacionado aos cartões de estudo (adição, edição e exclusão).
+- **`CartoesEstudoContext.js`**: Gerencia o estado relacionado aos cartões de estudo (carregamento, adição, edição e exclusão).
 
 #### **`/screens`**
 Contém as telas do aplicativo:
@@ -89,6 +86,29 @@ Contém as telas do aplicativo:
 - **`LoginScreen.js`**: Tela de login do aplicativo.
 - **`RegistroScreen.js`**: Tela para registro de novos usuários.
 - **`TarefasVencimentoProximoScreen.js`**: Tela que exibe tarefas com vencimento próximo.
+
+## Evidencias study_app
+
+<table>
+  <tr>
+    <td align="center">
+      <b>Exercicio01</b><br>
+      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01/reports/Ex01.jpeg?raw=true" height="300px" />
+    </td>
+    <td align="center">
+      <b>Exercicio02</b><br>
+      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01/reports/Ex02.jpeg?raw=true" height="300px" />
+    </td>
+    <td align="center">
+      <b>Exercicio03</b><br>
+      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01/reports/Ex03.jpeg?raw=true" height="300px" />
+    </td>
+    <td align="center">
+      <b>Desafio</b><br>
+      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01_desafio/reports/Lista%20de%20itens.jpeg?raw=true" height="300px" />
+    </td>
+  </tr>
+</table>
 
 ### Arquivos na Raiz do Projeto
 - **`.env`**: Armazena variáveis de ambiente sensíveis, como chaves de API.
