@@ -92,20 +92,20 @@ Contém as telas do aplicativo:
 <table>
   <tr>
     <td align="center">
-      <b>Exercicio01</b><br>
-      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01/reports/Ex01.jpeg?raw=true" height="300px" />
+      <b>Login</b><br>
+      <img src="https://github.com/Danielpqueiroz/study_app_react-native/blob/main/study-app/assets/login.png?raw=true" height="300px" />
     </td>
     <td align="center">
-      <b>Exercicio02</b><br>
-      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01/reports/Ex02.jpeg?raw=true" height="300px" />
+      <b>Cartões</b><br>
+      <img src="https://github.com/Danielpqueiroz/study_app_react-native/blob/main/study-app/assets/cartoes.png?raw=true" height="300px" />
     </td>
     <td align="center">
-      <b>Exercicio03</b><br>
-      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01/reports/Ex03.jpeg?raw=true" height="300px" />
+      <b>Cartões a vencer</b><br>
+      <img src="https://github.com/Danielpqueiroz/study_app_react-native/blob/main/study-app/assets/cartoesVencimento.png?raw=true" height="300px" />
     </td>
     <td align="center">
-      <b>Desafio</b><br>
-      <img src="https://github.com/Danielpqueiroz/uniesp_react_native/blob/main/react-native-2/aula01_desafio/reports/Lista%20de%20itens.jpeg?raw=true" height="300px" />
+      <b>Editar Cartão</b><br>
+      <img src="https://github.com/Danielpqueiroz/study_app_react-native/blob/main/study-app/assets/adicaoCartao.png?raw=true" height="300px" />
     </td>
   </tr>
 </table>
