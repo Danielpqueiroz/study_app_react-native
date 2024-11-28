@@ -6,12 +6,19 @@ import { auth } from '../config/firebaseConfig';
 const RegistroScreen = ({ navigation }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [confirmPassword, setConfirmPassword] = useState(''); 
 
     const handleRegister = async () => {
+        
+        if (password !== confirmPassword) {
+            Alert.alert('Erro', 'As senhas não coincidem. Por favor, tente novamente.');
+            return;
+        }
+
         try {
             await createUserWithEmailAndPassword(auth, email, password);
             Alert.alert('Sucesso', 'Conta criada com sucesso!');
-            navigation.goBack(); // Retorna à tela de login após o registro
+            navigation.goBack(); 
         } catch (error) {
             Alert.alert('Erro', error.message);
         }
@@ -33,6 +40,14 @@ const RegistroScreen = ({ navigation }) => {
                 placeholder="Senha"
                 value={password}
                 onChangeText={setPassword}
+                secureTextEntry
+                style={styles.input}
+                autoCapitalize="none"
+            />
+            <TextInput
+                placeholder="Confirmar Senha"
+                value={confirmPassword} 
+                onChangeText={setConfirmPassword}
                 secureTextEntry
                 style={styles.input}
                 autoCapitalize="none"

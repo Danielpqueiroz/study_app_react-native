@@ -51,15 +51,7 @@ npm install react-native-picker/picker
 npm install react-native-modal-datetime-picker
 ````
 
-Para gerar o .apk
-- Registro no site: expo.dev
-````bash
-npm install -g expo-cli
-npm install -g eas-cli
-eas login
-eas build:configure
-eas build -p android --profile preview
-````
+
 
 ## **Arquitetura das Pastas**
 
@@ -145,3 +137,12 @@ Contém as telas do aplicativo:
 - **`react-native-web`**: Permite rodar aplicativos React Native no navegador.
 
 ---
+### **Para gerar o .apk**
+- Registro no site: expo.dev
+````bash
+npm install -g expo-cli
+npm install -g eas-cli
+eas login
+eas build:configure
+eas build -p android --profile preview
+````

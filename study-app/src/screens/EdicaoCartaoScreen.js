@@ -56,7 +56,7 @@ const EdicaoCartaoScreen = ({ route, navigation }) => {
                 <Text style={styles.buttonText}>Escolher Data</Text>
             </TouchableOpacity>
             <DateTimePickerModal isVisible={mostraDataPicker} mode="datetime" onConfirm={confirmarData} onCancel={ocultarDataPicker} />
-            <Text style={styles.selectedDateLabel}>Data selecionada: {dataTermino.toLocaleDateString()}</Text>
+            <Text style={styles.selectedDateLabel}>{id ? `Data selecionada: ${dataTermino.toLocaleDateString()}` : 'Nenhuma data selecionada'}</Text>
 
             <Text style={styles.label}>Status:</Text>
             <Picker selectedValue={status} style={styles.input} onValueChange={(itemValue) => setStatus(itemValue)}>
